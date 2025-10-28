@@ -1,0 +1,375 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> 🚗Car Purchase Form</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right,#dff6f0);
+            color: rgb(18, 17, 17);
+            padding: 20px;
+            text-align: center;
+        }
+        h1{
+            margin-bottom: 30px;
+        }
+        .car-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .car-card{
+            background:#f5c518;
+            border-radius: 12px;
+            padding: 20px;
+            width: 260px;
+            box-shadow: 0 4px 10px rgba(160, 8, 8, 0.4);
+            transition: .3s;
+        }
+
+        .car-card:hover{
+            transform:translateY(-6px);
+        }
+        .car-name{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .car-type{
+            font-size: 14px;
+            color: #0d0d0d;
+        }
+        .car-range, .car-price{
+            font-size: 15px;
+            margin: 5px 0;
+        }
+        .car-image{
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+    </style>
+    </head>
+      <body>
+
+    <img src="C:\Users\Sahad Variya\Downloads\sport car.jpg" alt="car image" width="400" height="200">
+
+        
+<br><br>
+    <p>Fill Out the form below to book your dream car!</P>
+        <hr>
+
+        <form>
+             <h2><b><u> 🧍‍♂️Personal Information</h2></b></u>
+             <label><b>Full Name:</label></b>
+                <input type="Text" name="full name" required><br><br>
+
+                <label><b>Email Name:</label></b>
+                <input type="email" name="Email" required><br><br>
+
+                <label><b>Phone Number:</label></b>
+                <input type="tel" name="phone" required><br><br>
+
+            <label><b>Address:</label></b>
+
+                <textarea name="address" rows="3" cols="30" required></textarea><br><br>
+
+                <h2><b> <u>🚘Car Selection</h2></b></u>
+                <label><b>Select Car Brand</label></b>
+                <select name="brand" required>
+                    <option value="">--Select--</option>
+                    <option>Toyota</option>
+                    <option>Honda</option>
+                    <option>Tesla</option>
+                    <option>Hyundai</option>
+                    <option>Mahindra</option>
+                </select><br><br>
+
+                <label><b><u>Choose Model:</b></label><br></u>
+                <input type="radio"  name="Model" value="Basic" required>Basic
+                <input type="radio"  name="Model" value="sport" required>Sport
+                <input type="radio"  name="Model" value="Luxury" required>Luxury<br><br>
+
+            <h1>Car Project-Range . Type . Price</h1>
+                
+                <label><h2><b><u>Toyota Brand</label></b></u></h2>
+                <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"></b><u>Fortuner</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u>
+                        <div class="car-range"><u>Range:650Km-1100</div><br></u>
+                        <div class="car-price"><u>Price:33.65Lakh to 48.85Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+
+
+                <input type="checkbox" name="Fortuner" value="Fortuner">Fortuner
+                <img src="C:\Users\Sahad Variya\Downloads\istockphoto-1208725993-1024x1024.jpg"
+                width="300" height="200"><br><br>
+
+                 <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>Innova</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u>
+                        <div class="car-range"><u>Range:462km-1040</div><br></u>
+                        <div class="car-price"><u>Price:18.66Lakh to 25.27Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+
+                      <input type="checkbox" name="Innova" value="Innova">Fortuner
+                <img src="C:\Users\Sahad Variya\Downloads\innova images.jpg"
+                width="300" height="200"><br><br>
+
+
+                 <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>Hilux</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u>
+                        <div class="car-range"><u>Range:640km-800km</div><br></u>
+                        <div class="car-price"><u>Price:28.02Lakh to 35.85Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+
+                <input type="checkbox" name="Hilux" value="Hilux">Hilux
+                <img src="C:\Users\Sahad Variya\Downloads\hinux image.jpg"
+                width="300" height="200"><br><br>
+
+            
+
+                         <label><h2><b><u>Honda Brand</label></b></u></h2><br><br>
+
+                          <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>Honda-City</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u></u>
+                        <div class="car-range"><u>Range:535Km-736</div><br>
+                        <div class="car-price"><u>Price:12Lakh to 16.12Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+                <input type="checkbox" name="Honda-City" value="Honda-City">Honda-City
+                <img src="C:\Users\Sahad Variya\Downloads\honda city image.jpg"
+                width="300" height="200"><br><br>
+
+                 <div class="car-container">
+                    <!--Car2--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>Honda-Amaze</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u>
+                        <div class="car-range"><u>Range:653Km</div><br></u>
+                        <div class="car-price"><u>Price:7.45Lakh to 10Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+
+
+                <input type="checkbox" name="Honda-Amaze" value="Honda-Amaze">Honda-Amaze
+                <img src="C:\Users\Sahad Variya\Downloads\honda amaze.jpg"
+                width="300" height="200"><br><br>
+
+                 <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>Honda-Civic</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u>
+                        <div class="car-range"><u>Range:350Km-520</div><br></u>
+                        <div class="car-price"><u>Price:17.7Lakh to 22.3Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+
+                
+                <input type="checkbox" name="Honda-Civic" value="Honda-Civic">Honda-Civic
+                <img src="C:\Users\Sahad Variya\Downloads\honda civic.jpg"
+                width="300" height="200"><br><br>
+
+
+
+                 <label><h2><b><u>Tesla Brand</label></b></u></h2><br><br>
+
+
+                  <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>Model-S</div><br></u>
+                        <div class="car-type"><u>Type:Electric</div><br></u>
+                        <div class="car-range"><u>Range:335Km to 837km</div><br></u>
+                        <div class="car-price"><u>Price:80Lakh to 85Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+                <input type="checkbox" name="Model-S" value="Model-S">Model-S
+                <img src="C:\Users\Sahad Variya\Downloads\tesla model-s.jpg"
+                width="300" height="200"><br><br>
+
+                 <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>Model-X</div><br></u>
+                        <div class="car-type"><u>Type:Electric</div><br></u>
+                        <div class="car-range"><u>Range:579Km</div><br></u>
+                        <div class="car-price"><u>Price:2 Crore</div></u>
+                    </div>
+                </div>
+                <br>
+
+                 <input type="checkbox" name="Model-X" value="Model-X">Model-X
+                <img src="C:\Users\Sahad Variya\Downloads\tesla-model-x.jpg"
+                width="300" height="200"><br><br>
+                
+                         <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>Model-Y</div><br></u>
+                        <div class="car-type"><u>Type:Electric</div><br></u>
+                        <div class="car-range"><u>Range:500Km</div><br></u>
+                        <div class="car-price"><u>Price:59.89Lakh to 67.89Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+
+                    <input type="checkbox" name="Model-Y" value="Model-Y">Model-Y
+                <img src="C:\Users\Sahad Variya\Downloads\tesla-model-x.jpg"
+                width="300" height="200"><br><br>
+
+                <label><h2><b><u>Hyundai Brand</label></b></u></h2><br><br>
+
+                 <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>creata</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u>
+                        <div class="car-range"><u>Range:870Km</div><br></u>
+                        <div class="car-price"><u>Price:11.89Lakh to 22.22Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+                <input type="checkbox" name="Crata" value="Crata">Crata
+                <img src="C:\Users\Sahad Variya\Downloads\creata image.jpg"
+                width="300" height="200"><br><br>
+
+                 <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>Verna</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u>
+                        <div class="car-range"><u>Range:750-850Km</div><br></u>
+                        <div class="car-price"><u>Price:11.95Lakh to 16.25Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+
+                <input type="checkbox" name="Verna" value="Verna">Verna
+                <img src="C:\Users\Sahad Variya\Downloads\verna image.avif"
+                width="300" height="200"><br><br>
+
+                 <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>i-20</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u>
+                        <div class="car-range"><u>Range:500-740Km</div><br></u>
+                        <div class="car-price"><u>Price:6.87Lakh to 10.52Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+
+                <input type="checkbox" name="i-20" value="i-20">i-20
+                <img src="C:\Users\Sahad Variya\Downloads\i-20 image.jpg"
+                width="300" height="200"><br><br>
+
+                <label><h2><b><u>Mahindra Brand</label></b></u></h2><br><br>
+
+                 <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>Thar</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u>
+                        <div class="car-range"><u>Range:867Km</div><br></u>
+                        <div class="car-price"><u>Price:11.03Lakh to 18.92Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+                <input type="checkbox" name="Thar" value="Thar">Thar
+                <img src="C:\Users\Sahad Variya\Downloads\thar image.jpg"
+                width="300" height="200"><br><br>
+
+                  <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>Scorpio</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u>
+                        <div class="car-range"><u>Range:500-900Km</div><br></u>
+                        <div class="car-price"><u>Price:14.51Lakh to 15.43Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+
+                <input type="checkbox" name="Scorpio" value="Scorpio">Scorpio
+                <img src="C:\Users\Sahad Variya\Downloads\scorpio image.jpg"
+                width="300" height="200"><br><br>
+
+                 <div class="car-container">
+                    <!--Car1--->
+                    <div class="car-card">
+                        <div class="Car-name"><u>XUV700</div><br></u>
+                        <div class="car-type"><u>Type:Disel</div><br></u>
+                        <div class="car-range"><u>Range:880-1000Km</div><br></u>
+                        <div class="car-price"><u>Price:13.66Lakh to 25.14Lakh</div></u>
+                    </div>
+                </div>
+                <br>
+
+                <input type="checkbox" name="XUV700" value="XUV700">XUV700
+                <img src="C:\Users\Sahad Variya\Downloads\xuv image.jpg"
+                width="300" height="200"><br><br>
+
+                <label><b><u>Color Preference:</label></b></u><br><br>
+                <input type="color" name="carcolor"><br><br>
+
+                <h2><b><u> 💳Payment Details</h2></b></u>
+                <label><b><u>Payment Method:</label></b></u>
+                <select name="Payment " required>
+                    <option value="">--Select--</option>
+                    <option>Credit Card</option>
+                    <option>Debit Card</option>
+                    <option>UPI</option>
+                    <option>Net Banking</option>
+                    <option>Cash</option>
+                </select><br><br>
+
+                <label><b><u>Down Payment</u></b></label> 
+                <input type="number" name="downpayment" min="0" step="1000"><br><br>
+
+                <label><b><u>Preferred Delivery Date:</u></b></label><br>
+                <input type="date" name="Deliverydate"><br><br>
+ 
+                <input type="submit" value="Book-Now">
+                <input type="reset"   value="Reset form">
+            </form>
+            <hr>
+            <p>&copy; 2025 Car Purchase Project | Created by You</p>
+        </body>
+            </center>
+            </body>
+            </html>
+
+
+
+
+
+
+
+
